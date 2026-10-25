@@ -1,0 +1,18 @@
+<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#16354e"><meta name="description" content="Information om BRF Högdalens planerade interna säkerhetskopiering från Google Drive till lokal disk."><title>Google Drive-backup – BRF Högdalen</title><link rel="stylesheet" href="/style.css"></head><body><header><div class="wrap bar"><a class="brand" href="/">BRF Högdalen<span> / Dokumentbackup</span></a><nav aria-label="Huvudmeny"><a href="/">Om lösningen</a><a href="/privacy.html">Integritet</a><a href="/terms.html">Villkor</a></nav></div></header><main class="wrap">
+<p class="eyebrow">Skydd av föreningens dokument</p><h1>Google Drive-backup</h1>
+<p class="lead">BRF Högdalen förbereder en intern säkerhetskopiering av dokument från Google Drive till en lokalt administrerad Windows-dator.</p>
+<div class="note"><strong>Status:</strong> Lösningen konfigureras. Den här webbplatsen är enbart en informationssida och ger inte åtkomst till dokument eller backupfiler.</div>
+<section class="card"><h2>Varför behövs en backup?</h2>
+<p>Syftet är att möjliggöra återställning efter exempelvis oavsiktlig radering, felaktiga ändringar eller andra dataförluster.</p>
+<h2>Hur ska det fungera?</h2>
+<ul>
+<li>Programvaran <strong>rclone</strong> ansluter till Google Drive med den begränsade OAuth-behörigheten <code>drive.readonly</code>.</li>
+<li>Den lokala datorn hämtar en kopia av utvalda filer och mappar. Google Drive-filerna ändras inte av backupanslutningen.</li>
+<li>Backupen ska utformas för att bevara tidigare versioner och kunna återställa filer även om originalen tas bort.</li>
+</ul>
+<h2>Åtkomst och säkerhet</h2>
+<p>Backuplösningen är avsedd för behöriga företrädare för föreningen. Dokument, säkerhetskopior och inloggningsnycklar publiceras aldrig via den här informationssidan.</p></section>
+<section class="card"><h2>Hur hanterar vi personuppgifter?</h2>
+<p>Föreningens dokument kan innehålla personuppgifter. Läs mer om planerad åtkomst, användning, lokal lagring, säkerhet och kontaktvägar i vår <a href="/privacy.html">integritetspolicy</a>.</p>
+<p>Webbplatsen använder inga inloggningsformulär och samlar inte in Google Drive-innehåll.</p></section>
+</main><footer><div class="wrap"><span>BRF Högdalen · Intern IT-information</span><span><a href="/privacy.html">Integritetspolicy</a> · <a href="/terms.html">Villkor</a></span></div></footer></body></html>
